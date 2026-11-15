@@ -17,3 +17,8 @@
     * **0x12 (SYN-ACK) Dönerse:** Portun Açık (Open) olduğu anlaşılır. Sistemin loglarında iz bırakmamak ve bağlantıyı açık bırakmamak adına, anında bir `RST` (Sıfırlama) paketi gönderilerek bağlantı sessizce sonlandırılır.
     * **0x14 (RST-ACK) Dönerse:** Portun Kapalı (Closed) olduğu tespit edilir.
 * **Ana Döngü (Main Execution):** Programın ana bloğunda hedef IP ve taranacak port havuzu belirlenir. Tarayıcı nesnesi (Scanner Object) örneklendirilerek, belirlenen portlar bir `for` döngüsü içerisinde sırasıyla analiz edilir.
+
+---
+
+### ⚠️ Yasal Uyarı
+Bu araç tamamen eğitim amaçlı ve yetkilendirilmiş güvenlik testleri (CTF'ler, Bug Bounty programları, kendi laboratuvar ortamları) için geliştirilmiştir. Geliştirici, bu programın kötüye kullanımı veya neden olabileceği zararlardan sorumlu tutulamaz. Açık izin olmadan hiçbir canlı sisteme veya hedefe karşı kullanmayın.
